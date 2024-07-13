@@ -5,7 +5,7 @@ import { useRecoilValue } from "recoil";
 
 const UserDetails = () => {
   const user = useRecoilValue(userAtom);
-  console.log(user);
+  // console.log(user);
   return (
     <section className=" md:relative sm:right-2 right-0 sm:fixed">
       <div className="sm:w-[40vw] w-[90vw] m-auto rounded-lg shadow-3xl bg-bg-zinc-200 ">

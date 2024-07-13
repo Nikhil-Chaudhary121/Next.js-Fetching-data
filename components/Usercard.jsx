@@ -6,7 +6,7 @@ import { useRecoilState } from "recoil";
 const Usercard = ({ imgURL, name, role, userData }) => {
   const [user, setUser] = useRecoilState(userAtom);
   const showDetails = () => {
-    console.log("Click");
+    // console.log("Click");
     setUser(userData);
 
     // Show modal or something else to display user details
