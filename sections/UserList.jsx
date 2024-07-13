@@ -57,7 +57,9 @@ const UserList = () => {
           <h1 className="text-2xl font-bold text-zinc-600">List of users</h1>
           <div className="px-28 pt-4 flex relative w-full justify-between items-center">
             <p className="text-sm text-gray-600 font-bold">Name</p>
-            <p className="text-sm text-gray-600 ">Profession</p>
+            <p className="text-sm hidden lg:inline text-gray-600 ">
+              Profession
+            </p>
             {/* <p className="text-sm text-gray-600">Current Location</p> */}
           </div>
         </div>
@@ -107,7 +109,9 @@ const UserList = () => {
           <h1 className="text-2xl font-bold text-zinc-600">List of users</h1>
           <div className="px-28 pt-4 flex relative w-full justify-between items-center">
             <p className="text-sm text-gray-600 font-bold">Name</p>
-            <p className="text-sm text-gray-600 ">Profession</p>
+            <p className="text-sm text-gray-600 hidden lg:inline ">
+              Profession
+            </p>
             {/* <p className="text-sm text-gray-600">Current Location</p> */}
           </div>
         </div>
@@ -136,7 +140,9 @@ const UserList = () => {
           <h1 className="text-2xl font-bold text-zinc-600">List of users</h1>
           <div className="px-28 pt-4 flex relative w-full justify-between items-center">
             <p className="text-sm text-gray-600 font-bold">Name</p>
-            <p className="text-sm text-gray-600 ">Profession</p>
+            <p className="text-sm text-gray-600 hidden lg:inline ">
+              Profession
+            </p>
             {/* <p className="text-sm text-gray-600">Current Location</p> */}
           </div>
         </div>
@@ -165,7 +171,9 @@ const UserList = () => {
           <h1 className="text-2xl font-bold text-zinc-600">List of users</h1>
           <div className="px-28 pt-4 flex relative w-full justify-between items-center">
             <p className="text-sm text-gray-600 font-bold">Name</p>
-            <p className="text-sm text-gray-600 ">Profession</p>
+            <p className="text-sm text-gray-600  hidden lg:inline">
+              Profession
+            </p>
             {/* <p className="text-sm text-gray-600">Current Location</p> */}
           </div>
         </div>

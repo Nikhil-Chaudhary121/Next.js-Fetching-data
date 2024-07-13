@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <RecoilRoot>
       <main className=" max-container relative">
-        <section className=" flex flex-row w-full justify-between gap-10 pt-32 pb-10">
-          <section className=" relative min-h-[100vh] h-fit w-2/3 bg-white rounded-lg">
+        <section className=" flex sm:flex-row flex-col-reverse  w-full  xl:gap-10 gap-4 pt-32 pb-10">
+          <section className=" md:w-2/3 w-[90%] m-auto relative min-h-[100vh] h-fit  bg-white rounded-lg">
             <UserList />
           </section>
-          <section className=" lg:w-1/3 w-full relative ">
+          <section className=" lg:w-2/5 sm:w-fit w-full relative">
             <UserDetails />
           </section>
         </section>

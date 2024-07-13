@@ -27,7 +27,7 @@ const Usercard = ({ imgURL, name, role, userData }) => {
         </div>
         <div className=" relative px-12 flex justify-between text-gray-50 w-full items-center">
           <h1 className=" font-semibold text-xl text-zinc-900">{name}</h1>
-          <p className="  text-lg">{role}</p>
+          <p className=" hidden lg:inline  text-lg">{role}</p>
           {/* <div className="w-44"> */}
           {/* <p className=" text-lg"> {location} </p> */}
           {/* </div> */}

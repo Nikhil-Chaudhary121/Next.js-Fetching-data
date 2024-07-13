@@ -7,8 +7,8 @@ const UserDetails = () => {
   const user = useRecoilValue(userAtom);
   console.log(user);
   return (
-    <section className=" fixed lg:w-1/5 w-full  ">
-      <div className="rounded-lg shadow-3xl bg-bg-zinc-200 ">
+    <section className=" md:relative sm:right-2 right-0 sm:fixed">
+      <div className="sm:w-[40vw] w-[90vw] m-auto rounded-lg shadow-3xl bg-bg-zinc-200 ">
         <div className="rounded-lg  w-full px-8 py-6 bg-zinc-200 rounded-tr-lg rounded-tl-lg ">
           <h1 className=" text-2xl font-bold text-zinc-600">User's Details</h1>
         </div>
